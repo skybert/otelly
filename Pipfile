@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.8"
+
+[packages]
+tornado = "==6.4"
+asyncio = "==3.4.3"
+opentelemetry-api = "==1.22.0"
+opentelemetry-distro = "==0.43b0"
+opentelemetry-exporter-otlp = "==1.22.0"
+opentelemetry-instrumentation-tornado = "==6.4"
